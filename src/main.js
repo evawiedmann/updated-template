@@ -18,13 +18,6 @@ const getElements = function(response) {
 
 
 
-
-
-
-
-
-
-
 (async () => {
   let dailyPhoto = new DailyPhoto();
   const response2 = await dailyPhoto.getDailyPhoto();
