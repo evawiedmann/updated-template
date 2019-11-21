@@ -12,7 +12,7 @@ import './styles.css';
 })();
 
 const getElements = function(response) {
-  $('#marsPhotos').attr("src", response.photos[4].img_src);
+  $('#marsPhotos').attr("src", response.photos[16].img_src);
 };
 
 
